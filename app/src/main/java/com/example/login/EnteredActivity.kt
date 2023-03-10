@@ -61,6 +61,7 @@ class EnteredActivity : AppCompatActivity() {
                     cvDetails.visibility = View.VISIBLE
                     tvDetails.visibility = View.VISIBLE
                     btnOpenMap.visibility = View.VISIBLE
+                    tvDetails.setText("Details")
                 }
 
                 //lekérdezésekhez szükséges query adatok megadása api-s kulccsal
